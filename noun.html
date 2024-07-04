@@ -1,0 +1,131 @@
+<html>
+    <head>
+        <link href="common.css" rel="stylesheet">
+        <link href="mobile.css" rel="stylesheet" media="(orientation: portrait)">
+    </head>
+
+    <body>
+        <nav>
+            <ul>
+                <a href="index.html"><li>home</li></a>
+            </ul>
+        </nav>
+
+        <main>
+            <div class="wordcontainer" id="Water">
+                <div class="word-head">
+                    <p>Water</p>
+                    <p>물</p>
+                </div>
+                <div class="variantbox">
+                    <div>
+                        <h3>Español</h3>
+                        <p>Agua</p>
+                        <div class="row">
+                            <h5>f/m</h5>
+                            <p>Masculine</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Português</h3>
+                        <p>Água</p>
+                        <div class="row">
+                            <h5>f/m</h5>
+                            <p>Feminine</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wordcontainer" id="Apple">
+                <div class="word-head">
+                    <p>Apple</p>
+                    <p>사과</p>
+                </div>
+                <div class="variantbox">
+                    <div>
+                        <h3>Español</h3>
+                        <p>Manzana</p>
+                        <div class="row">
+                            <h5>plural</h5>
+                            <p>Manzanas</p>
+                        </div>
+                        <div class="row">
+                            <h5>f/m</h5>
+                            <p>Feminine</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Português</h3>
+                        <p>Maçã</p>
+                        <div class="row">
+                            <h5>f/m</h5>
+                            <p>Feminine</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wordcontainer" id="Orange">
+                <div class="word-head">
+                    <p>Orange</p>
+                    <p>오렌지</p>
+                </div>
+                <div class="variantbox">
+                    <div>
+                        <h3>Español</h3>
+                        <p>Naranja</p>
+                        <div class="row">
+                            <h5>plural</h5>
+                            <p>Naranjas</p>
+                        </div>
+                        <div class="row">
+                            <h5>f/m</h5>
+                            <p>Feminine</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Português</h3>
+                        <p>Laranja</p>
+                        <div class="row">
+                            <h5>f/m</h5>
+                            <p>Feminine</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wordcontainer" id="Juice">
+                <div class="word-head">
+                    <p>Juice</p>
+                    <p>주스</p>
+                </div>
+                <div class="variantbox">
+                    <div>
+                        <h3>Español</h3>
+                        <p>Jugo</p>
+                        <div class="row">
+                            <h5>f/m</h5>
+                            <p>Masculine</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Português</h3>
+                        <p>Suco</p>
+                        <div class="row">
+                            <h5>f/m</h5>
+                            <p>Masculine</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <script>
+            var variantElements = document.querySelectorAll('.variant');
+
+            variantElements.forEach(element => {
+                element.addEventListener('click', () => {
+                    element.classList.toggle('clicked');
+                });
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    width: 100%;
+    margin: 0;
+    display: block;
+}
+
+.wordcontainer {
+    padding-right: 0;
+}
+
+.word-head {
+    width: 30%;
+}
+
+.variantbox {
+    width: 60%;
+}
